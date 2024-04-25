@@ -1,0 +1,42 @@
+*{margin:0;
+padding:0;
+}
+.h2 {
+    color: forestgreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/*estilo de página para h2*/
+div {
+    width:400px; height:150px;
+    background-color: darksalmon;
+    border: 4px dotted;
+    padding: 40px;
+    margin: 50PX;
+    display: inline-table;
+    text-align: center;
+}
+div p {
+    display: table-cell;
+    vertical-align: middle;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 32px;
+    text-transform: uppercase;
+    color: blueviolet;
+}
+/*estilo para "me encanta"*/
+.azul {
+    background-color: blue;
+    width: auto;
+}
+    .rojo {
+        background-color: red;
+        width: 100px;
+    }
+    .verde {
+    background-color: green;
+    width: 200px;
+}   
+.gris {
+    background-color: grey;
+    width: 300px;
+}   
