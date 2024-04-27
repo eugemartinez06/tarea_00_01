@@ -40,3 +40,20 @@ div p {
     background-color: grey;
     width: 300px;
 }   
+/*estilo resctángulos prueba*/
+header { 
+    background-color: yellow;
+    width: 100%; height: auto;
+}
+footer {
+    background-color: aquamarine;
+    width: 100%; height: auto;
+}
+/*barra pie de página*/
+.formulario {
+    border: 5px double;
+    color: blue;
+    background-color: chartreuse;
+    width: 25%;
+    height: auto;
+}   
