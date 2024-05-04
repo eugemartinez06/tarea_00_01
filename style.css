@@ -57,3 +57,8 @@ footer {
     width: 25%;
     height: auto;
 }   
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
