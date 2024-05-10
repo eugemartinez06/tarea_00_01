@@ -23,14 +23,7 @@ footer {
     background-color: aquamarine;
     width: 100%; height: auto;
 }
-/*barra pie de página*/
-.formulario {
-    border: 5px double;
-    color: blue;
-    background-color: chartreuse;
-    width: 25%;
-    height: auto;
-}   
+/*barra pie de página*/   
 ul {
     display: flex;
     flex-direction: row;
