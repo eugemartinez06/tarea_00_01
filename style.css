@@ -6,15 +6,6 @@ padding:0;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 /*estilo de página para h2*/
-div {
-    width:400px; height:150px;
-    background-color: darksalmon;
-    border: 4px dotted;
-    padding: 40px;
-    margin: 50PX;
-    display: inline-table;
-    text-align: center;
-}
 div p {
     display: table-cell;
     vertical-align: middle;
@@ -24,23 +15,6 @@ div p {
     color: blueviolet;
 }
 /*estilo para "me encanta"*/
-.azul {
-    background-color: blue;
-    width: auto;
-}
-    .rojo {
-        background-color: red;
-        width: 100px;
-    }
-    .verde {
-    background-color: green;
-    width: 200px;
-}   
-.gris {
-    background-color: grey;
-    width: 300px;
-}   
-/*estilo resctángulos prueba*/
 header { 
     background-color: yellow;
     width: 100%; height: auto;
@@ -62,3 +36,58 @@ ul {
     flex-direction: row;
     justify-content: space-around;
 }
+.contenedor1 {
+    display: grid;
+    grid-template-columns: 300px 1fr 300px;
+}
+/*estilos de media  query*/
+.media {
+    column-gap: 10%;
+    row-gap: 10%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: blue;
+    display: grid;
+    width: 980px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.caja1 { 
+    background-color: green;
+}
+.caja2 { 
+    background-color: aquamarine;
+}
+.caja3 { 
+    background-color: brown;
+}
+.caja4 { 
+    background-color: coral;
+}
+.caja5 { 
+    background-color: darkgreen;
+}
+.caja6 { 
+    background-color: fuchsia;
+}
+.caja7 { 
+    background-color: grey;
+}
+.caja8 { 
+    background-color: hotpink;
+}
+.caja9 { 
+    background-color: lightblue;
+}
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+    .media {
+        background-color: yellow;
+        width: 100%;
+        padding-left: 23px;
+        flex-direction: column;
+    }
+    .caja { 
+        
+        width: 100%;
+    }
+}            
